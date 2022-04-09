@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <Group
+      location = "container:"
+      name = "Data Structures">
+      <Group
+         location = "container:"
+         name = "Data Structures Tests">
+         <FileRef
+            location = "group:LC105Tests.swift">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:/Users/tripphillips/Desktop/Projects/LC105.swift">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Algorithms">
+      <Group
+         location = "container:"
+         name = "Algorithms Tests">
+      </Group>
+   </Group>
+</Workspace>

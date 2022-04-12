@@ -12,10 +12,20 @@ class LC105Tests: XCTestCase {
     var sut: LC105Solution!
     
     override func setUpWithError() throws {
+        do {
+            try super.setUpWithError()
+        } catch {
+            assertionFailure(error.localizedDescription)
+        }
         sut = LC105Solution()
     }
 
     override func tearDownWithError() throws {
+        do {
+            try super.tearDownWithError()
+        } catch {
+            assertionFailure(error.localizedDescription)
+        }
         sut = nil
     }
 

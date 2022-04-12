@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D57CE65280521AE00F73AC2 /* LC200.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57CE64280521AE00F73AC2 /* LC200.swift */; };
+		0D57CE67280521BC00F73AC2 /* LC200Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57CE66280521BC00F73AC2 /* LC200Tests.swift */; };
 		0DB5644727FF2E3B00EF1FCC /* LC105.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1185B27FF2AB500254CF3 /* LC105.swift */; };
 		0DB5644827FF2E7800EF1FCC /* LC105Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1185927FF2AB500254CF3 /* LC105Tests.swift */; };
 		0DB5644927FF2E8300EF1FCC /* LC105.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1185B27FF2AB500254CF3 /* LC105.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0D57CE64280521AE00F73AC2 /* LC200.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC200.swift; sourceTree = "<group>"; };
+		0D57CE66280521BC00F73AC2 /* LC200Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC200Tests.swift; sourceTree = "<group>"; };
 		0DB5644027FF2E2C00EF1FCC /* libDataStructures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDataStructures.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE1185927FF2AB500254CF3 /* LC105Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC105Tests.swift; sourceTree = "<group>"; };
 		0DE1185A27FF2AB500254CF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -51,20 +55,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DB5644127FF2E2C00EF1FCC /* DataStructures */ = {
+		0D57CE622805217800F73AC2 /* Algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				0D57CE632805218500F73AC2 /* Algorithms Tests */,
+				0D57CE64280521AE00F73AC2 /* LC200.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		0D57CE632805218500F73AC2 /* Algorithms Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0D57CE66280521BC00F73AC2 /* LC200Tests.swift */,
+			);
+			path = "Algorithms Tests";
+			sourceTree = "<group>";
+		};
+		0DB5644127FF2E2C00EF1FCC /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				0DE1186427FF2CAF00254CF3 /* Data Structures Tests */,
 				0DE1185B27FF2AB500254CF3 /* LC105.swift */,
 			);
-			path = DataStructures;
+			path = "Data Structures";
 			sourceTree = "<group>";
 		};
 		0DE1185127FF2A7E00254CF3 = {
 			isa = PBXGroup;
 			children = (
+				0D57CE622805217800F73AC2 /* Algorithms */,
 				0DE1185A27FF2AB500254CF3 /* README.md */,
-				0DB5644127FF2E2C00EF1FCC /* DataStructures */,
-				0DE1186427FF2CAF00254CF3 /* DataStructuresTests */,
+				0DB5644127FF2E2C00EF1FCC /* Data Structures */,
 				0DE1186327FF2CAE00254CF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,12 +100,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0DE1186427FF2CAF00254CF3 /* DataStructuresTests */ = {
+		0DE1186427FF2CAF00254CF3 /* Data Structures Tests */ = {
 			isa = PBXGroup;
 			children = (
 				0DE1185927FF2AB500254CF3 /* LC105Tests.swift */,
 			);
-			path = DataStructuresTests;
+			path = "Data Structures Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE1186A27FF2CBE00254CF3 /* LC105Tests.swift in Sources */,
+				0D57CE65280521AE00F73AC2 /* LC200.swift in Sources */,
 				0DB5644927FF2E8300EF1FCC /* LC105.swift in Sources */,
+				0D57CE67280521BC00F73AC2 /* LC200Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

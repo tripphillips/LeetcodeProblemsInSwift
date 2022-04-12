@@ -1,14 +1,15 @@
 //
 //  LC105.swift
+//  Data Structures
 //
+// Created by Trip Phillips on 4/7/22.
+//
+
 // 105. Construct Binary Tree from Preorder and Inorder Traversal
 //
 // Given two integer arrays preorder and inorder where preorder is
 // the preorder traversal of a binary tree and inorder is the inorder
 // traversal of the same tree, construct and return the binary tree.
-//
-// Created by Trip Phillips on 4/7/22.
-//
 
 import Foundation
 

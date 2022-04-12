@@ -31,10 +31,10 @@ class LC200Solution {
         
         var count = 0
         
-        for i in 0..<mutableGrid.count {
-            for j in 0..<mutableGrid[i].count {
+        for row in 0..<mutableGrid.count {
+            for col in 0..<mutableGrid[i].count {
                 
-                let currentPosition = GridPosition(row: i, col: j)
+                let currentPosition = GridPosition(row: row, col: col)
                 
                 if mutableGrid[currentPosition.row][currentPosition.col] == "1" {
                     count += 1

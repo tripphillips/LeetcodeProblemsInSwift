@@ -40,16 +40,14 @@ class LC105Tests: XCTestCase {
         let root = sut.buildTree([-1], [-1])
         var outputArray = [Int?]()
         traverse(root, outputArray: &outputArray)
-        outputArray.removeFirst()
-        outputArray.removeLast()
-        XCTAssertEqual(outputArray, [-1])
+        XCTAssertEqual(outputArray, [-1, nil, nil])
     }
     
     func testStandardCase1() {
         let root = sut.buildTree([3,9,20,15,7], [9,3,15,20,7])
         var outputArray = [Int?]()
         traverse(root, outputArray: &outputArray)
-        XCTAssertEqual(outputArray, [3,9,20,nil,nil,15,7])
+        XCTAssertEqual(outputArray, [3,9,nil,nil,20,15,nil,nil,7,nil,nil])
     }
 
     private func traverse(_ root: TreeNode?, outputArray: inout [Int?]) {
@@ -61,12 +59,4 @@ class LC105Tests: XCTestCase {
         _ = traverse(root?.left, outputArray: &outputArray)
         _ = traverse(root?.right, outputArray: &outputArray)
     }
-    
-    func testPerformanceEmpty() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            sut.buildTree([], [])
-        }
-    }
-
 }

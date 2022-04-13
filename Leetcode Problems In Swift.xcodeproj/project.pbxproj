@@ -14,6 +14,11 @@
 		0D19C1DF28066DE900117350 /* LC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19C1DE28066DE900117350 /* LC5.swift */; };
 		0D19C1E028066DFC00117350 /* LC5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19C1DE28066DE900117350 /* LC5.swift */; };
 		0D19C1E228066E3200117350 /* LC5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19C1E128066E3200117350 /* LC5Tests.swift */; };
+		0D19C1E728071EBC00117350 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19C1E528071E8D00117350 /* TreeNode.swift */; };
+		0D19C1E828071EBD00117350 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19C1E528071E8D00117350 /* TreeNode.swift */; };
+		0D19C1EC2807200A00117350 /* LC94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19C1EA28071F2D00117350 /* LC94.swift */; };
+		0D19C1ED2807200A00117350 /* LC94.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19C1EA28071F2D00117350 /* LC94.swift */; };
+		0D19C1F02807209200117350 /* LC94Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D19C1EF2807209200117350 /* LC94Tests.swift */; };
 		0DB5644727FF2E3B00EF1FCC /* LC105.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1185B27FF2AB500254CF3 /* LC105.swift */; };
 		0DB5644927FF2E8300EF1FCC /* LC105.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1185B27FF2AB500254CF3 /* LC105.swift */; };
 		0DE1186A27FF2CBE00254CF3 /* LC105Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1185927FF2AB500254CF3 /* LC105Tests.swift */; };
@@ -55,6 +60,9 @@
 		0D19C1A62805C03E00117350 /* AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D19C1DE28066DE900117350 /* LC5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC5.swift; sourceTree = "<group>"; };
 		0D19C1E128066E3200117350 /* LC5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC5Tests.swift; sourceTree = "<group>"; };
+		0D19C1E528071E8D00117350 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		0D19C1EA28071F2D00117350 /* LC94.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC94.swift; sourceTree = "<group>"; };
+		0D19C1EF2807209200117350 /* LC94Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC94Tests.swift; sourceTree = "<group>"; };
 		0D57CE64280521AE00F73AC2 /* LC200.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC200.swift; sourceTree = "<group>"; };
 		0D57CE66280521BC00F73AC2 /* LC200Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC200Tests.swift; sourceTree = "<group>"; };
 		0DB5644027FF2E2C00EF1FCC /* libDataStructures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDataStructures.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,40 +105,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D57CE622805217800F73AC2 /* Algorithms */ = {
+		0D19C1E928071ECA00117350 /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
-				0D57CE632805218500F73AC2 /* Algorithms Tests */,
+				0D19C1E528071E8D00117350 /* TreeNode.swift */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		0D57CE622805217800F73AC2 /* Algorithm Problems */ = {
+			isa = PBXGroup;
+			children = (
+				0D57CE632805218500F73AC2 /* Algorithm Problem Tests */,
 				0D57CE64280521AE00F73AC2 /* LC200.swift */,
 				0D19C1DE28066DE900117350 /* LC5.swift */,
 			);
-			path = Algorithms;
+			path = "Algorithm Problems";
 			sourceTree = "<group>";
 		};
-		0D57CE632805218500F73AC2 /* Algorithms Tests */ = {
+		0D57CE632805218500F73AC2 /* Algorithm Problem Tests */ = {
 			isa = PBXGroup;
 			children = (
 				0D57CE66280521BC00F73AC2 /* LC200Tests.swift */,
 				0D19C1E128066E3200117350 /* LC5Tests.swift */,
 			);
-			path = "Algorithms Tests";
+			path = "Algorithm Problem Tests";
 			sourceTree = "<group>";
 		};
-		0DB5644127FF2E2C00EF1FCC /* Data Structures */ = {
+		0DB5644127FF2E2C00EF1FCC /* Data Structure Problems */ = {
 			isa = PBXGroup;
 			children = (
-				0DE1186427FF2CAF00254CF3 /* Data Structures Tests */,
+				0DE1186427FF2CAF00254CF3 /* Data Structure Problem Tests */,
 				0DE1185B27FF2AB500254CF3 /* LC105.swift */,
+				0D19C1EA28071F2D00117350 /* LC94.swift */,
+				0D19C1E928071ECA00117350 /* Data Structures */,
 			);
-			path = "Data Structures";
+			path = "Data Structure Problems";
 			sourceTree = "<group>";
 		};
 		0DE1185127FF2A7E00254CF3 = {
 			isa = PBXGroup;
 			children = (
-				0D57CE622805217800F73AC2 /* Algorithms */,
+				0D57CE622805217800F73AC2 /* Algorithm Problems */,
 				0DE1185A27FF2AB500254CF3 /* README.md */,
-				0DB5644127FF2E2C00EF1FCC /* Data Structures */,
+				0DB5644127FF2E2C00EF1FCC /* Data Structure Problems */,
 				0DE1186327FF2CAE00254CF3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -146,12 +164,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0DE1186427FF2CAF00254CF3 /* Data Structures Tests */ = {
+		0DE1186427FF2CAF00254CF3 /* Data Structure Problem Tests */ = {
 			isa = PBXGroup;
 			children = (
 				0DE1185927FF2AB500254CF3 /* LC105Tests.swift */,
+				0D19C1EF2807209200117350 /* LC94Tests.swift */,
 			);
-			path = "Data Structures Tests";
+			path = "Data Structure Problem Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +333,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DB5644727FF2E3B00EF1FCC /* LC105.swift in Sources */,
+				0D19C1EC2807200A00117350 /* LC94.swift in Sources */,
+				0D19C1E728071EBC00117350 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +343,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DE1186A27FF2CBE00254CF3 /* LC105Tests.swift in Sources */,
+				0D19C1ED2807200A00117350 /* LC94.swift in Sources */,
 				0DB5644927FF2E8300EF1FCC /* LC105.swift in Sources */,
+				0D19C1E828071EBD00117350 /* TreeNode.swift in Sources */,
+				0D19C1F02807209200117350 /* LC94Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

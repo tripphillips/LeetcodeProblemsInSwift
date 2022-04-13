@@ -23,14 +23,17 @@ class LC5Solution {
         
         for i in 0..<charArray.count-1 {
             
+            // Odd length sub strings
             let oddLength = expandAroundCenter(charArray: charArray, left: i, right: i)
             
+            // Even length sub strings
             let evenLength = expandAroundCenter(charArray: charArray, left: i, right: i+1)
-            let lenght = max(oddLength, evenLength)
             
-            if (lenght > end - start) {
-                start = i - ((lenght - 1) / 2)
-                end = i + (lenght/2)
+            let length = max(oddLength, evenLength)
+            
+            if (length > end - start) {
+                start = i - ((length - 1) / 2)
+                end = i + (length/2)
             }
         }
         return String(charArray[start...(end)])

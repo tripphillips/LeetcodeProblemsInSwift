@@ -34,7 +34,7 @@ class LC200Solution {
         var count = 0
         
         for row in 0..<mutableGrid.count {
-            for col in 0..<mutableGrid[i].count {
+            for col in 0..<mutableGrid[row].count {
                 
                 let currentPosition = GridPosition(row: row, col: col)
                 

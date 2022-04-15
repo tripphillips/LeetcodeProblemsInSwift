@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "8E04FD67-A3FC-4088-BD03-30980340749D",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Leetcode Problems In Swift.xcodeproj",
+        "identifier" : "0DE1186127FF2CAE00254CF3",
+        "name" : "DataStructuresTests"
+      }
+    }
+  ],
+  "version" : 1
+}

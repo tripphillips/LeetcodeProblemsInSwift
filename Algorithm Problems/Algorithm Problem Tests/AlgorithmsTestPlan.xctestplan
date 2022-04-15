@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "EF94CB73-DD4A-4145-AC60-147959822154",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Leetcode Problems In Swift.xcodeproj",
+        "identifier" : "0D19C1A52805C03E00117350",
+        "name" : "AlgorithmsTests"
+      }
+    }
+  ],
+  "version" : 1
+}

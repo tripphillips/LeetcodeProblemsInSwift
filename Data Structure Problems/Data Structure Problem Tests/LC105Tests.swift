@@ -56,7 +56,7 @@ class LC105Tests: XCTestCase {
             return
         }
         outputArray.append(root?.val)
-        _ = traverse(root?.left, outputArray: &outputArray)
-        _ = traverse(root?.right, outputArray: &outputArray)
+        traverse(root?.left, outputArray: &outputArray)
+        traverse(root?.right, outputArray: &outputArray)
     }
 }

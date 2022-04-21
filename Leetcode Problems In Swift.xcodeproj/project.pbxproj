@@ -36,6 +36,9 @@
 		0DAC7D4128104218005EEF5C /* LC844.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC7D4028104218005EEF5C /* LC844.swift */; };
 		0DAC7D4228104218005EEF5C /* LC844.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC7D4028104218005EEF5C /* LC844.swift */; };
 		0DAC7D4428104281005EEF5C /* LC844Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC7D4328104281005EEF5C /* LC844Tests.swift */; };
+		0DAC7D7A2811BE83005EEF5C /* LC1060.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC7D792811BE83005EEF5C /* LC1060.swift */; };
+		0DAC7D7B2811BE83005EEF5C /* LC1060.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC7D792811BE83005EEF5C /* LC1060.swift */; };
+		0DAC7D7D2811BED7005EEF5C /* LC1060Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC7D7C2811BED7005EEF5C /* LC1060Tests.swift */; };
 		0DB5644727FF2E3B00EF1FCC /* LC105.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1185B27FF2AB500254CF3 /* LC105.swift */; };
 		0DB5644927FF2E8300EF1FCC /* LC105.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1185B27FF2AB500254CF3 /* LC105.swift */; };
 		0DE1186A27FF2CBE00254CF3 /* LC105Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE1185927FF2AB500254CF3 /* LC105Tests.swift */; };
@@ -102,6 +105,8 @@
 		0DAC7D3E280EF057005EEF5C /* LC21Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC21Tests.swift; sourceTree = "<group>"; };
 		0DAC7D4028104218005EEF5C /* LC844.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC844.swift; sourceTree = "<group>"; };
 		0DAC7D4328104281005EEF5C /* LC844Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC844Tests.swift; sourceTree = "<group>"; };
+		0DAC7D792811BE83005EEF5C /* LC1060.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC1060.swift; sourceTree = "<group>"; };
+		0DAC7D7C2811BED7005EEF5C /* LC1060Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC1060Tests.swift; sourceTree = "<group>"; };
 		0DB5644027FF2E2C00EF1FCC /* libDataStructures.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDataStructures.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DE1185927FF2AB500254CF3 /* LC105Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LC105Tests.swift; sourceTree = "<group>"; };
 		0DE1185A27FF2AB500254CF3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -161,6 +166,7 @@
 				0D19C1F32809C32900117350 /* LC68.swift */,
 				0D57CE64280521AE00F73AC2 /* LC200.swift */,
 				0DAC7D4028104218005EEF5C /* LC844.swift */,
+				0DAC7D792811BE83005EEF5C /* LC1060.swift */,
 			);
 			path = "Algorithm Problems";
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 				0D19C1F62809C3D000117350 /* LC68Tests.swift */,
 				0D57CE66280521BC00F73AC2 /* LC200Tests.swift */,
 				0DAC7D4328104281005EEF5C /* LC844Tests.swift */,
+				0DAC7D7C2811BED7005EEF5C /* LC1060Tests.swift */,
 			);
 			path = "Algorithm Problem Tests";
 			sourceTree = "<group>";
@@ -363,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DAC7D7A2811BE83005EEF5C /* LC1060.swift in Sources */,
 				0D19C1FF280B1A3000117350 /* LC1.swift in Sources */,
 				0D19C1DF28066DE900117350 /* LC5.swift in Sources */,
 				0D19C1F42809C32900117350 /* LC68.swift in Sources */,
@@ -377,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D19C200280B1A3100117350 /* LC1.swift in Sources */,
+				0DAC7D7D2811BED7005EEF5C /* LC1060Tests.swift in Sources */,
 				0DAC7D2E280D9E8F005EEF5C /* LC56Tests.swift in Sources */,
 				0D19C1E228066E3200117350 /* LC5Tests.swift in Sources */,
 				0D19C1B42805C07600117350 /* LC200.swift in Sources */,
@@ -384,6 +393,7 @@
 				0DAC7D4228104218005EEF5C /* LC844.swift in Sources */,
 				0D19C202280B1BEA00117350 /* LC1Tests.swift in Sources */,
 				0D19C1B32805C07200117350 /* LC200Tests.swift in Sources */,
+				0DAC7D7B2811BE83005EEF5C /* LC1060.swift in Sources */,
 				0D19C1F72809C3D000117350 /* LC68Tests.swift in Sources */,
 				0DAC7D4428104281005EEF5C /* LC844Tests.swift in Sources */,
 				0DAC7D2B280D9E77005EEF5C /* LC56.swift in Sources */,
